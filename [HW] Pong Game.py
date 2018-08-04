@@ -82,7 +82,7 @@ while loop:
     if ballx >= x2 - 15:
         if y2 <= bally <= y2 + 120:
             ball_v_x = - ball_v_x
-        elif y2 - 20 <= bally <= y2 + 20 or y2 + 100 <= bally <= y2 + 125:
+        elif y2 - 20 <= bally <= y2 + 20 or y2 + 120 <= bally <= y2 + 125:
             ball_v_y = - ball_v_y
     if ballx >= 640 - 20 or ballx <= 0:
         ball_v_x = - ball_v_x
